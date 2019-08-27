@@ -7,6 +7,10 @@ body {
 	padding:0;
 	/*background:url(background2.jpg) center;*/
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 /*@page {
    size: 7in 9.25in;
    margin: 27mm 16mm 27mm 16mm;
@@ -72,12 +76,12 @@ p, a, div, span, .font {
 }
 .col_left {
 	float:left;
-	width:48%;
+	width:40%;
 	margin:0 2% 0 0;
 }
 .col_right {
 	float:left;
-	width:48%;
+	width:56%;
 	margin:0 0 0 2%;
 }
 .subsection {
@@ -112,7 +116,7 @@ p, a, div, span, .font {
 	font-size:12px;
 }
 .subsection .ssm_text {
-	margin:0 0 6px 0;
+	margin:0 0 10px 0;
 	padding:0;
 	font-size:14px;
 }
@@ -232,10 +236,10 @@ p, a, div, span, .font {
 	width: 20%;
 }
 .t_lang .tc_levelbar {
-	width: 60%;
+	width: 56%;
 	padding-right: 16px;
 	height: 100%;
 }
 .t_lang .tc_level {
-	width: 20%;
+	width: 24%;
 }
